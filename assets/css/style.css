@@ -80,3 +80,32 @@ thead th:last-child , tr td:last-child {
     width: 60%;
 }
 
+/* Sezione "Potrebbe interessarti" */
+#potrebbe-interessarti > * {
+    margin: 5px;
+}
+#potrebbe-interessarti h4 {
+    color: gray;
+}
+/* schede articoli alternativi */
+.articolo-alternativo {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+}
+.link-articolo-1 {
+    background-image: url(../img/monitor.jpg);
+}
+.link-articolo-2 {
+    background-image: url(../img/graph.jpg);
+}
+
+/* Caratteristische link */
+#potrebbe-interessarti a {
+    color: white;
+    text-decoration: none;
+}
+
