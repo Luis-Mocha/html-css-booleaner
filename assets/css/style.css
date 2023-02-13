@@ -50,7 +50,6 @@ main {
     text-decoration: none;
     color: rgb(32, 169, 229);
 }
-
 .descrizioni {
     font-size: smaller;
 }
@@ -58,5 +57,26 @@ main {
 /* Articolo Corpo*/
 #corpo > * {
     margin: 20px 0;
+}
+/*table*/
+table {
+    border-spacing: 0;
+}
+thead {
+    color: white;
+    background-color: rgb(32, 169, 229);
+}
+tbody {
+    background-color: rgb(177, 229, 242);
+}
+tr:nth-child(2) {
+    background-color: white;
+}
+td {
+    padding: 5px;
+}
+
+thead th:last-child , tr td:last-child {
+    width: 60%;
 }
 
