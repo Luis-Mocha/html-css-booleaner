@@ -12,7 +12,7 @@ table td: rgb(177, 229, 242);
     padding: 0;
 }
 
-/* Header */
+/* HEADER */
 header {
     background-color: rgb(78, 160, 255) ;
     background-image: url(../img/pattern.png);
@@ -28,3 +28,23 @@ header #logo {
     left: 5px;
     bottom: 10px;
 }
+
+/* MAIN */
+main {
+    margin: 10px;
+}
+
+/* Articolo */
+#articolo #info {
+    color: gray;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+#info #data {
+    font-size: smaller;
+}
+.autore-link {
+    text-decoration: none;
+    color: rgb(32, 169, 229);
+}
+
