@@ -1,6 +1,23 @@
+/*
+Color info:
+header background: rgb(78, 160, 255);
+table th: rgb(32, 169, 229);
+table td: rgb(177, 229, 242);
+*/
+
 /* CSS reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Header */
+header {
+    background-color: rgb(78, 160, 255) ;
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+
+    height: 100px;
 }
