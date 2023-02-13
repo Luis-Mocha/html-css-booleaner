@@ -17,7 +17,14 @@ header {
     background-color: rgb(78, 160, 255) ;
     background-image: url(../img/pattern.png);
     background-size: 25%;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 
     height: 100px;
+    position: relative;
+}
+header #logo {
+    height: 50%;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
 }
