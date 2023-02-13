@@ -69,13 +69,13 @@ thead {
 tbody {
     background-color: rgb(177, 229, 242);
 }
-tr:nth-child(2) {
-    background-color: white;
-}
 td {
     padding: 5px;
 }
-
+/* Provo a usare pseudoclassi */
+tr:nth-child(2) {
+    background-color: white;
+}
 thead th:last-child , tr td:last-child {
     width: 60%;
 }
