@@ -28,13 +28,13 @@ header {
 header #logo {
     height: 50%;
     position: absolute;
-    left: 5px;
+    left: 10%;
     bottom: 10px;
 }
 
 /* MAIN */
 main {
-    max-width: 85%;
+    max-width: 80%;
     margin: 20px auto;
 }
 
