@@ -11,6 +11,9 @@ table td: rgb(177, 229, 242);
     margin: 0;
     padding: 0;
 }
+li {
+    margin-left: 1em;
+}
 
 /* HEADER */
 header {
@@ -51,3 +54,4 @@ main {
 .descrizioni {
     font-size: smaller;
 }
+
