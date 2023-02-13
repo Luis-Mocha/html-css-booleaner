@@ -37,7 +37,7 @@ main {
     margin: 10px;
 }
 
-/* Articolo */
+/* Articolo  Heading*/
 #articolo #info {
     color: gray;
     font-weight:bold;
@@ -53,5 +53,10 @@ main {
 
 .descrizioni {
     font-size: smaller;
+}
+
+/* Articolo Corpo*/
+#corpo > * {
+    margin: 20px 0;
 }
 
